@@ -113,6 +113,7 @@ Here are some previews of the application:
 | ![Kenya Country Details](screenshots/ke2.jpeg) | ![Kenya Details](screenshots/ke.jpeg) | ![Sierra Leone](screenshots/ser.jpeg) | 
 
 | Uganda details |
+|-----------|
 | ![Uganda Details](screenshots/ug.jpeg) |
 
 ---
