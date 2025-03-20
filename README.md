@@ -1,4 +1,3 @@
-```md
 <p align="center">
   <a href="https://laravel.com" target="_blank">
     <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
@@ -6,23 +5,23 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/your-repository/actions">
-    <img src="https://github.com/your-repository/workflows/tests/badge.svg" alt="Build Status">
+  <a href="https://github.com/eliastush/world-countries-list/actions">
+    <img src="https://github.com/eliastush/world-countries-list/workflows/tests/badge.svg" alt="Build Status">
   </a>
-  <a href="https://packagist.org/packages/your-package">
-    <img src="https://img.shields.io/packagist/dt/your-package" alt="Total Downloads">
+  <a href="https://packagist.org/packages/world-countries-list">
+    <img src="https://img.shields.io/packagist/dt/world-countries-list" alt="Total Downloads">
   </a>
-  <a href="https://packagist.org/packages/your-package">
-    <img src="https://img.shields.io/packagist/v/your-package" alt="Latest Stable Version">
+  <a href="https://packagist.org/packages/world-countries-list">
+    <img src="https://img.shields.io/packagist/v/world-countries-list" alt="Latest Stable Version">
   </a>
-  <a href="https://packagist.org/packages/your-package">
-    <img src="https://img.shields.io/packagist/l/your-package" alt="License">
+  <a href="https://packagist.org/packages/world-countries-list">
+    <img src="https://img.shields.io/packagist/l/world-countries-list" alt="License">
   </a>
 </p>
 
 ---
 
-# 🌍 World Countries List
+# World Countries List
 
 A Laravel-based web application that provides a comprehensive list of countries, including details such as country names, capitals, currencies, population, and more.
 
@@ -30,34 +29,46 @@ This project is designed for easy access to country information through an API o
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🌎 Fetches data for all countries
-- 🗺️ Displays country details (name, capital, region, currency, etc.)
-- 🔍 Search functionality to find a specific country
-- 📊 API integration for external applications
-- 🎨 Responsive and user-friendly UI
-- 🔧 Built using Laravel for fast and scalable performance
+- Fetches data for all countries
+- Displays country details (name, capital, region, currency, etc.)
+- Search functionality to find a specific country
+- API integration for external applications
+- Responsive and user-friendly UI
+- Built using Laravel for fast and scalable performance
 
 ---
 
-## 🛠 Installation & Setup
+## Laravel Advantages
 
-### 1️⃣ Clone the Repository
+- Elegant and expressive syntax
+- Built-in authentication and authorization
+- Robust routing system
+- Powerful ORM (Eloquent) for database interactions
+- Efficient queue system for background jobs
+- Secure and scalable framework
+- Extensive documentation and active community support
+
+---
+
+## Installation & Setup
+
+### Clone the Repository
 
 ```sh
-git clone https://github.com/your-repository/world-countries-list.git
+git clone https://github.com/eliastush/world-countries-list.git
 cd world-countries-list
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```sh
 composer install
 npm install
 ```
 
-### 3️⃣ Set Up Environment Variables
+### Set Up Environment Variables
 
 Copy the example `.env` file and configure it:
 
@@ -67,19 +78,19 @@ cp .env.example .env
 
 Update your `.env` file with database details.
 
-### 4️⃣ Generate Application Key
+### Generate Application Key
 
 ```sh
 php artisan key:generate
 ```
 
-### 5️⃣ Run Database Migrations
+### Run Database Migrations
 
 ```sh
 php artisan migrate --seed
 ```
 
-### 6️⃣ Serve the Application
+### Serve the Application
 
 ```sh
 php artisan serve
@@ -89,7 +100,7 @@ The project should now be accessible at [http://127.0.0.1:8000](http://127.0.0.1
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 Here are some previews of the application:
 
@@ -97,13 +108,16 @@ Here are some previews of the application:
 |-----------|-------------|
 | ![Home Page](screenshots/home.jpeg) | ![Country List](screenshots/index.jpeg) |
 
-| Country Details | Search Feature | API Response |
+| Kenya Details | kenya details | API Response |
 |----------------|---------------|--------------|
-| ![Kenya Country Details](screenshots/ke2.jpeg) | ![Kenya Details ](screenshots/ke.jpeg) | ![Siera leone](screenshots/ser.jpeg) | ![Uganda Details](screenshots/ug.jpeg) |
+| ![Kenya Country Details](screenshots/ke2.jpeg) | ![Kenya Details](screenshots/ke.jpeg) | ![Sierra Leone](screenshots/ser.jpeg) | 
+
+| Uganda details |
+| ![Uganda Details](screenshots/ug.jpeg) |
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|---------|------------|
@@ -113,17 +127,17 @@ Here are some previews of the application:
 
 ---
 
-## 🏗 Technologies Used
+## Technologies Used
 
-- **Laravel** – PHP Framework
-- **MySQL** – Database
-- **Bootstrap** – UI Styling
-- **Axios** – API Requests
-- **Vue.js (Optional)** – Frontend interactivity
+- Laravel – PHP Framework
+- MySQL – Database
+- Bootstrap – UI Styling
+- Axios – API Requests
+- Vue.js (Optional) – Frontend interactivity
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -135,27 +149,25 @@ Contributions are welcome! To contribute:
 
 ---
 
-## ⚠️ Security Vulnerabilities
+## Security Vulnerabilities
 
-If you find a security issue, please report it to [your email](mailto:your-email@example.com) instead of posting it publicly.
+If you find a security issue, please report it to [mutugielias01@gmail.com](mailto:mutugielias01@gmail.com) instead of posting it publicly.
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-```md
-## 📬 Contact
+## Contact
 
 For any questions or suggestions, feel free to reach out:
 
-📧 Email: [mutugielias01@gmail.com](mailto:mutugielias01@gmail.com)  
-🌍 Portfolio: [eliasmutugi's portfolio](https://sites.google.com/view/eliasmutugi/)
-```
+Email: [mutugielias01@gmail.com](mailto:mutugielias01@gmail.com)  
+Portfolio: [eliasmutugi's portfolio](https://sites.google.com/view/eliasmutugi/)
+
 ---
 
-🚀 **Enjoy using the World Countries List!** 🌎✨
-```
+Enjoy using the World Countries List!
